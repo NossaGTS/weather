@@ -31,4 +31,6 @@ exec = /PATH/TO/PYTHON/SCRIPT
 interval = time in miliseconds (please note, with this API you only get 1000 calls a day for free, so try to be mindful of what you set your interval to.)
 [optional]
 label-font = custom font you would like to use.
+label-padding = 1 ; add padding around the module
+label-foreground = ${colors.primary} ; theme label to follow color scheme (must have a section in your polybar config called [colors] with a color named primary else change it to whatever you named your colors)
 ```
