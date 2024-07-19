@@ -13,7 +13,7 @@ Script to pull current conditions and put it into my polybar config
 
 ## How to Use
 1. You must apply for an api key at https://openweathermap.org/api by signing up for an account.
-2. Once you have an API key. Update the .env file in this repository directory.
+2. Once you have an API key. Update the .env file in this repository.
 3. The .env file should follow the following format
      ```
      API_KEY=xxxx - api key received from openweathermap
